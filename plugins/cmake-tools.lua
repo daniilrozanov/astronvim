@@ -1,7 +1,7 @@
 return {
   "Civitasv/cmake-tools.nvim",
   lazy = false,
-  config = function ()
+  config = function()
     require("cmake-tools").setup {
       cmake_command = "cmake", -- this is used to specify cmake command path
       cmake_regenerate_on_save = true, -- auto generate when save CMakeLists.txt
@@ -38,7 +38,7 @@ return {
           },
           overseer = {
             new_task_opts = {}, -- options to pass into the `overseer.new_task` command
-            on_new_task = function(task) end, -- a function that gets overseer.Task when it is created, before calling `task:start`
+            -- on_new_task = function(task) end, -- a function that gets overseer.Task when it is created, before calling `task:start`
           },
           terminal = {}, -- terminal executor uses the values in cmake_terminal
         },
