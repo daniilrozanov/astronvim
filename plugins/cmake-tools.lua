@@ -1,4 +1,4 @@
-jjreturn {
+return {
   "Civitasv/cmake-tools.nvim",
   lazy = false,
   config = function()
