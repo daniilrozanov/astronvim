@@ -33,12 +33,6 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
-    ["<leader>o"] = { name = "Overseer" },
-    ["<leader>or"] = { "<cmd>OverseerRun<cr>", desc = "Run task" },
-    ["<leader>ot"] = { "<cmd>OverseerToggle<cr>", desc = "Toggle tasks" },
-    ["<leader>oi"] = { "<cmd>OverseerInfo<cr>", desc = "Show info" },
-    ["<leader>oa"] = { "<cmd>OverseerTaskAction<cr>", desc = "Task action" },
-    ["<leader>oq"] = { "<cmd>OverseerQuickAction<cr>", desc = "Quick action" },
     ["<leader>ls"] = { "<cmd>Telescope lsp_document_symbols<cr>", desc = "LSP Document symbols" },
   },
   t = {
